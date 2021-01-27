@@ -46,6 +46,10 @@ inputs:
     description: "Do not perform tagging, just calculate next version and changelog, then exit."
     required: false
     default: "false"
+  git_sha:
+    description: "Specifies the Git SHA to use"
+    required: false
+    default: "false"
 
 runs:
   using: "node12"
